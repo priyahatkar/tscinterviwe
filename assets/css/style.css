@@ -1,0 +1,32 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0deg, rgba(9, 5, 47, 0.85), rgba(49, 29, 94, 0.85)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOStlZXEt_5sN46N_smeSnQPecNsON6IWNSg&s');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1, h3{
+    text-shadow: 2px 4px 3px #000;
+}
+.paymentSection{
+    margin: 25px 0;
+    padding: 25px;
+    .imgSection{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        a{
+            color: #fff;
+        }
+        a:hover{
+            text-decoration: none;
+        }
+    }
+}
+.footerSide{
+    display: flex;
+    justify-content: space-evenly;
+    color: orangered;
+}
